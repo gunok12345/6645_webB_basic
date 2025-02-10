@@ -1,14 +1,49 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(114, 121, 189);
+}
 header {
-   
+   margin: 0 40px;
     
 }
 .container {
-    background-color: rgb(255, 166, 0);
+    
+    width: 70%;
+    margin: auto;
+}
+.crad {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 5px;
+    
+}
+.crad img{
+    width: 100%;
+    border-radius: 15px;
+    
 }
 footer {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(192, 104, 104);
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0;
+    margin-top: 15px;
+   
+    p {
+    color: #ffffff;
+   }
+  
+
 } 
+
+
 .logo-name {
     
     display: flex;
@@ -42,6 +77,12 @@ footer {
         padding: 10px 20px;
         border-radius: 5px;
         text-decoration: none;
+        border: none;
+        
+    }
+    .btn-primary:hover {
+        background-color: rgb(7, 31, 241);
+       
     }
     .btn-secondary {
         background-color: rgb(255, 255, 255);
@@ -49,6 +90,41 @@ footer {
         padding: 10px 20px;
         border-radius: 5px;
         text-decoration: none;
+        border: none;
     }
- 
+    .btn-secondary:hover {
+        background-color: rgb(85, 85, 85);
+        color: rgb(255, 255, 255);
+        
+    }
+    .crad button{
+        background-color: rgb(35, 168, 75);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        border: none;
+        margin-top: 10px;
+    }
+    .crad button:hover {
+        background-color: rgb(6, 88, 31);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        border: none;
+        margin-top: 10px;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 1rem;
+    }
+    .menu ul li a:hover {
+        text-decoration: none;
+        color: rgb(7, 31, 241);
+        font-size: 1rem;
+    }
+
+    
  

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Prompt', sans-serif;
+            background: linear-gradient(90deg, rgb(105, 187, 11) 0%, rgba(255,208,11,1) 35%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .conteiner{
+            
+            width: 700px;
+            padding: 20px;
+            border-radius: 8px;
+            display: flex;
+        }
+        .left-side{
+            width: 50%;
+            padding: 20px;
+            border-radius: 8px;
+            background-image: url('images/new-york-statue-of-liberty_2x1.avif');
+            background-size: cover;
+            color: white;
+            background-position: center;
+            background-blend-mode: darken;
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .right-side{
+            width: 40%;
+            padding: 40px;
+            border-radius: 8px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            p{
+                line-height: 0;
+            }
+            form{
+                label{
+                    display: block;
+                    text-align: left;
+                    margin: 10px 0;
+                    font-size: 14px;
+                }
+                input{
+                    width: 100%;
+                    padding: 4px;
+                    margin: 10px 0;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
+                button{
+                    width: 100%;
+                    padding: 10px;
+                    margin: 10px 0;
+                    border: none;
+                    border-radius: 5px;
+                    background: linear-gradient(90deg, rgb(105, 187, 11) 0%, rgba(255,208,11,1) 35%);
+                    color: rgb(8, 20, 131);
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="left-side">
+            <h1>Information technology</h1>
+            <p>ยินดีต้อนรับเข้าสู่เว็ปไซต์การเรียนการสอน it </p>
+
+        </div>
+        <div class="right-side">
+            <h2>login</h2>
+            <form action="" method="post">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" required>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Forgot Password?</p>
+            <p>Don't have account? <a href="">Resgister</a></p>
+           
+    </div>
+</body>
+</html>
