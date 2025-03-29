@@ -1,0 +1,67 @@
+
+        body {
+            font-family: "Noto Sans Thai", sans-serif;;
+            margin:  0;
+            padding: 0;
+            box-sizing: border-box;
+            p{
+                font-size: 25px;
+            }
+        }
+        .pricing-card { 
+            border-radius: 10px; 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+            transition: transform 0.3s ease-in-out; 
+        } 
+        .pricing-card:hover { 
+            transform: scale(1.05); 
+        } 
+        .plan-title { 
+            font-size: 1.2rem; 
+            font-weight: bold; 
+        } 
+        .plan-price { 
+            font-size: 2rem; 
+            font-weight: bold; 
+        } 
+        .plan-features li { 
+            list-style: none; 
+            padding: 5px 0; 
+            font-size: 1rem; i { margin-right: 10px; font-size: large; }
+        } .plan-features li .check { 
+            color: green; 
+        } .plan-features li .cross { 
+            color: red; 
+        }
+        .big{
+            font-size: 30px;
+            text-align: center;
+        }
+        .hi{
+            color: red;
+        }
+        .pbig{
+            color: red;
+            font-size: 200px;
+            font-weight: 500;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+        }
+        .Ebig{
+            color: red;
+            font-size: 200px;
+            font-weight: 500;
+        }
+        .red{
+            color: red;
+        }
+        .redup{
+            color: red;
+            font-weight: 500;
+        }
+        .gay{
+            color: black;
+        }
+        
